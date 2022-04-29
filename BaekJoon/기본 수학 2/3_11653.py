@@ -1,0 +1,13 @@
+def main():
+    N = int(input())
+
+    i = 2
+    while i <= N:
+        if N % i == 0:
+            print(i)
+            N = N // i
+        else:
+            i += 1
+
+if __name__ == "__main__":
+    main()
