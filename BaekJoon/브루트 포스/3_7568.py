@@ -4,7 +4,7 @@ def main():
     bulk = []
 
     for i in range(n):
-        bulk.append(list(map(int,input().split())))
+        bulk.append(list(map(int, input().split())))
 
     for i in range(n):
         rank = 1
