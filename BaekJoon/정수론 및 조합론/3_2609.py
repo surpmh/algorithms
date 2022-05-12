@@ -16,7 +16,7 @@ def main():
     num = gcd(n1, n2)
 
     print(num)
-    print((n1 * n2) // num)
+    print(n1 * n2 // num)
     
 if __name__ == "__main__":
     main()
