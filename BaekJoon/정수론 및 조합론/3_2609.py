@@ -1,6 +1,7 @@
 # 최대공약수와 최소공배수
 import sys
 input = sys.stdin.readline
+
 def gcd(a, b):
     if a % b == 0:
         return b
