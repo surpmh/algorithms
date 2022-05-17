@@ -10,7 +10,7 @@ def main():
     n = math.factorial(n)
     n = str(n)
 
-    for i in range(1, len(n)+1):
+    for i in range(1, len(n)):
         if n[-i] == '0':
             result += 1
         else:
