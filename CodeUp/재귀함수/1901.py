@@ -3,9 +3,10 @@ import sys
 input = sys.stdin.readline
 
 def recursion(n):
-    print(n)
     if n > 1:
         recursion(n-1)
+
+    print(n)
 
 num = int(input())
 
