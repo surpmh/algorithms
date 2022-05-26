@@ -1,6 +1,4 @@
 # 백만 장자 프로젝트
-import queue
-
 def main():
     T = int(input())
 
