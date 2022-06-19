@@ -1,5 +1,4 @@
 # 수 찾기
-from array import array
 import sys
 input = sys.stdin.readline
 
