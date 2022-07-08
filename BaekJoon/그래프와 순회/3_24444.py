@@ -1,4 +1,4 @@
-# 알고리즘 수업 - 너비 우선 탐색 2
+# 알고리즘 수업 - 너비 우선 탐색 1
 import sys
 from collections import deque
 input = sys.stdin.readline
