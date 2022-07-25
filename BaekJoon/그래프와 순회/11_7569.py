@@ -1,4 +1,4 @@
-# # 토마토
+# 토마토
 import sys
 from collections import deque
 input = sys.stdin.readline
