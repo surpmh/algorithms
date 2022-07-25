@@ -19,7 +19,6 @@ def bfs():
 
 m, n, h = map(int, input().split())
 box = []
-result = []
 q = deque()
 dx = [1, 0, 0, 0, 0, -1] 
 dy = [0, -1, 0, 0, 1, 0]
