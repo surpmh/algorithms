@@ -45,4 +45,3 @@ for i in range(n):
             count2 += 1
 
 print(count1, count2)
-            
