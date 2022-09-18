@@ -19,7 +19,7 @@ else:
     while box:
         if not box:
             break
-
+        
         for c in crane:
             for b in box:
                 if c >= b:
