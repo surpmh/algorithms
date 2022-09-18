@@ -1,4 +1,4 @@
-# K번쨰 수
+# K번째 수
 import sys
 input = sys.stdin.readline
 
