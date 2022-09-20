@@ -10,7 +10,6 @@ d = []
 for i in range(1, n):
     d.append(sensors[i] - sensors[i-1])
 
-
 d.sort()
 
 print(sum(d[:(n-k)]))
