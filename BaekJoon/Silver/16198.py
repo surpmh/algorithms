@@ -1,3 +1,4 @@
+# 에너지 모으기
 import sys
 input = sys.stdin.readline
 
