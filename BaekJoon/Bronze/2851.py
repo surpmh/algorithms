@@ -16,4 +16,6 @@ for i in mushroom:
             print(score)
         else:
             print(score-i)
-        break;
+        exit();
+
+print(score)
