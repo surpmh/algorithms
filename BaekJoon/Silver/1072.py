@@ -1,6 +1,5 @@
 # 게임
 import sys
-import math
 input = sys.stdin.readline
 
 x, y = map(int, input().split())
@@ -15,8 +14,6 @@ else:
 
     while start <= end:
         mid = (start + end) // 2
-
-        print(start, mid, end, (y + mid) * 100 // (x + mid))
 
         if (y + mid) * 100 // (x + mid) <= z:
             start = mid + 1
