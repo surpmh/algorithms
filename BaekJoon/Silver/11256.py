@@ -21,4 +21,3 @@ for test_case in range(t):
         if j <= 0:
             print(count)
             break
-
