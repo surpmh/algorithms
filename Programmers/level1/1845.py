@@ -1,9 +1,9 @@
-# 2016년
+# 폰켓몬
 def solution(nums):
     n = len(nums) // 2
     nums = set(nums)
     
-    if n< len(nums) :
+    if n < len(nums) :
         answer = n
     else:
         answer = len(nums)
