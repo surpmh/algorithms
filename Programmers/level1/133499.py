@@ -19,7 +19,6 @@ def solution(babbling):
         if say == "":
             answer += 1
 
-            
     return answer
 
-print(solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]))
+print(solution(["aya", "yee", "u", "maa"]))
