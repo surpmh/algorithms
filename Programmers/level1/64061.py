@@ -2,7 +2,7 @@
 def solution(board, moves):
     answer = 0
     stack = [0]
-
+    
     for move in moves:
         for row in board:
             if row[move-1]:
