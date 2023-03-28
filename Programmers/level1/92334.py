@@ -17,10 +17,10 @@ def solution(id_list, report, k):
 
     for i in range(len(report)):
         a, b = report[i].split()
-
+        
         if answer[id_list.index(b)] >= k:
             result[id_list.index(a)] += 1
-            
+
     return result
 
 print(solution(["muzi", "frodo", "apeach", "neo"], ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2))
