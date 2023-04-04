@@ -10,7 +10,7 @@ def solution(dirs):
         if -5 <= location[0] + move[i][0] <= 5 and -5 <= location[1] + move[i][1] <= 5:
             location = [x + y for x, y in zip(location, move[i])]
             way.append(location)
-        
+
             if way not in visited and [way[1], way[0]] not in visited:
                 visited.append(way)
                 answer += 1
