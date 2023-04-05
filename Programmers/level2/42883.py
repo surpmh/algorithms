@@ -13,4 +13,4 @@ def solution(number, k):
         
     return ''.join(stack)
 
-print(solution("99991", 3))
+print(solution("1924", 2))
