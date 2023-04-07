@@ -1,15 +1,15 @@
 # 스킬트리
+from collections import deque
+
 def solution(skill, skill_trees):
     answer = len(skill_trees)
 
     for s in skill_trees:
-        learn = [0] * len(skill)
+        q = deque(skill)
         for i in s:
-            if i in skill:
-                if i == skill[0]:
-                    learn[0] = 1
-                elif learn[skill.find(i)-1]:
-                    learn[skill.find(i)] = 1
+            if i in q:
+                if i == q[0]:
+                    q.popleft()
                 else:
                     answer -= 1
                     break
