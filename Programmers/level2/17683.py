@@ -6,7 +6,9 @@ def solution(m, musicinfos):
     
     for musicinfo in musicinfos:
         musicinfo = musicinfo.replace("C#", "H").replace("D#", "I").replace("F#", "J").replace("G#", "K").replace("A#", "M")
+        
         start, end, title, melody = musicinfo.split(",")
+        
         start_h, start_m = map(int, start.split(":"))
         end_h, end_m = map(int, end.split(":"))
         time = (end_h * 60 + end_m) - (start_h * 60 + start_m)
