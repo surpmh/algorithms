@@ -1,4 +1,7 @@
 # 병든 나이트
+import sys
+input = sys.stdin.readline
+
 n, m = map(int, input().split())
 
 if n == 1:
