@@ -16,7 +16,7 @@ def solution(queue1, queue2):
             break
         if sum1 < sum2:
             num = queue2.popleft()
-            queue1.append(num)c
+            queue1.append(num)
             sum1 += num
             sum2 -= num
         elif sum1 > sum2:
