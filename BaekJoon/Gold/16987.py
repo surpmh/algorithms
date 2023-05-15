@@ -10,8 +10,9 @@ def dfs(idx):
         for e in egg:
             if e[0] <= 0:
                 count += 1
-            answer = max(answer, count)
+        answer = max(answer, count)
         return
+    
     if egg[idx][0] <= 0:
         dfs(idx + 1)
     else:
