@@ -14,7 +14,7 @@ for _ in range(t):
     else:
         if stack:
             stack[-1][1] -= 1
-    
+
     if stack and stack[-1][1] == 0:
         answer += stack[-1][0]
         stack.pop()
