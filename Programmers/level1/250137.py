@@ -1,3 +1,4 @@
+# [PCCP 기출문제] 1번 / 붕대 감기
 def solution(bandage, health, attacks):
     max_health = health
     time = 0
